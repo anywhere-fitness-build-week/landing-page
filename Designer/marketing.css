@@ -293,7 +293,7 @@ p {
 /*Tablets version */
 @media (max-width: 800px) {
     .container {
-        width: 800px;
+        width: 100%;
         margin: 0 auto;
     }
     .navAimg {
@@ -304,7 +304,7 @@ p {
 /*Mobile version */
 @media (max-width: 500px) {
     .container {
-        width: 500px;
+        width: 100%;
         margin: 0 auto;
     }
     .navs-img {
@@ -314,7 +314,8 @@ p {
         height: 225px;
     }
     .header-container {
-        width: 500px;
+        width: 100%;
+        padding: 0px;
     }
     .Header-img {
         display: none;
