@@ -176,7 +176,7 @@ h1 {
     font-size: 30px;
     font-size: 3rem;
     color: antiquewhite;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 .dropdown .dropdown-hidden {
     display: none;
@@ -292,12 +292,21 @@ p {
 
 /*Tablets version */
 @media (max-width: 800px) {
-    .container {
+    #container {
         width: 100%;
         margin: 0 auto;
     }
     .navAimg {
         margin-left: 10px;
+    }
+    .middleTop {
+        width: 100%;
+    }
+    .header-text {
+        width: 50%;
+        padding: 0;
+    }
+    .frontImg {
     }
 }
 
@@ -315,7 +324,6 @@ p {
     }
     .header-container {
         width: 100%;
-        padding: 0px;
     }
     .Header-img {
         display: none;
@@ -343,6 +351,11 @@ p {
         width: 500px;
         padding: 10px;
     }
+    /* .dropdown-content a {
+        margin-right: 0px;
+        margin-top: 0px;
+    } */
+
     .middleTop {
         display: flex;
         flex-wrap: wrap-reverse;
@@ -401,9 +414,10 @@ p {
         margin-left: -10px;
         padding: 5px;
         font-size: 27px;
-        border: 1px solid white;
+        /* border: 1px solid white; */
         color: white;
-        width: 500px;
+        width: 100%;
+        margin-top: 0px;
         text-decoration: none;
     }
     .dropdown-content a:hover {
