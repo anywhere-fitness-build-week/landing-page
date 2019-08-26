@@ -176,7 +176,7 @@ h1 {
     font-size: 30px;
     font-size: 3rem;
     color: antiquewhite;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 .dropdown .dropdown-hidden {
     display: none;
@@ -290,21 +290,44 @@ p {
     text-align: center;
 }
 
+@media (min-width: 800px) {
+    #container {
+        width: 100%;
+    }
+}
+
 /*Tablets version */
 @media (max-width: 800px) {
-    .container {
-        width: 800px;
+    #container {
+        width: 100%;
         margin: 0 auto;
     }
     .navAimg {
         margin-left: 10px;
+    }
+    .middleTop {
+        width: 100%;
+    }
+    .header-text {
+        margin-left: 20px;
+    }
+    .header-title {
+        font-size: 4rem;
+        padding: 40px;
+    }
+    .front-img {
+        width: 100%;
+    }
+    .dummy-img,
+    .dummy-img1 {
+        width: 75%;
     }
 }
 
 /*Mobile version */
 @media (max-width: 500px) {
     .container {
-        width: 500px;
+        width: 100%;
         margin: 0 auto;
     }
     .navs-img {
@@ -314,7 +337,7 @@ p {
         height: 225px;
     }
     .header-container {
-        width: 500px;
+        width: 100%;
     }
     .Header-img {
         display: none;
@@ -342,6 +365,7 @@ p {
         width: 500px;
         padding: 10px;
     }
+
     .middleTop {
         display: flex;
         flex-wrap: wrap-reverse;
@@ -351,13 +375,18 @@ p {
         width: 100%;
     }
     .header-text {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 140px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        margin-left: 40px;
     }
     .header-title {
         font-size: 45px;
         font-size: 4.5rem;
+    }
+    .front-Page-btn {
+        width: 75%;
+        font-size: 3rem;
+        border-radius: 5px;
     }
     .sectionOne {
         display: flex;
@@ -400,9 +429,10 @@ p {
         margin-left: -10px;
         padding: 5px;
         font-size: 27px;
-        border: 1px solid white;
+        /* border: 1px solid white; */
         color: white;
-        width: 500px;
+        width: 100%;
+        margin-top: 0px;
         text-decoration: none;
     }
     .dropdown-content a:hover {
@@ -415,11 +445,11 @@ p {
 }
 
 /* Smallest Mobile Version */
-@media (min-width: 320px) {
+/* @media (min-width: 320px) {
     .header-text {
         display: flex;
         flex-direction: column;
         align-content: center;
         margin-left: 100px;
     }
-}
+} */
