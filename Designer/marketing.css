@@ -309,11 +309,14 @@ p {
         width: 100%;
     }
     .header-text {
-        margin-left: 40px;
-        font-size: 1.5rem;
+        margin-left: 20px;
+    }
+    .header-title {
+        font-size: 4rem;
+        padding: 40px;
     }
     .front-img {
-        width: 85%;
+        width: 100%;
     }
     .dummy-img,
     .dummy-img1 {
@@ -372,13 +375,18 @@ p {
         width: 100%;
     }
     .header-text {
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 140px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        margin-left: 40px;
     }
     .header-title {
         font-size: 45px;
         font-size: 4.5rem;
+    }
+    .front-Page-btn {
+        width: 75%;
+        font-size: 3rem;
+        border-radius: 5px;
     }
     .sectionOne {
         display: flex;
