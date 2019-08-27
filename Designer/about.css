@@ -146,6 +146,7 @@ h5 {
 }
 .container {
     width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 .header-container {
@@ -194,6 +195,7 @@ h5 {
     margin-bottom: 35px;
     border: 1px solid black;
     background-color: #ff7e79;
+    margin-top: 0px;
 }
 h1 {
     font-size: 35px;
@@ -202,7 +204,7 @@ h1 {
 .dummyImg {
     width: 20%;
     margin-top: 10px;
-    border: 2px solid rgb(121, 77, 172);
+    border: 3px solid rgb(121, 77, 172);
     border-radius: 10px;
 }
 .threeRow {
@@ -226,8 +228,9 @@ h1 {
     width: 100%;
     background: rgb(121, 77, 172);
     text-align: center;
-    height: 20vh;
+    height: 10vh;
     display: table;
+    margin-top: -40px;
 }
 .copy-right {
     text-align: center;
