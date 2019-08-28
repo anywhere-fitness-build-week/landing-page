@@ -147,6 +147,8 @@ h5 {
 .container {
     width: 1200px;
     width: 100%;
+    /* height: 100%;
+    height: 100vh; for some reason still can't get it to fill the whole height at all sizes*/
     margin: 0 auto;
 }
 .header-container {
@@ -194,7 +196,8 @@ h5 {
     margin-top: 35px;
     margin-bottom: 35px;
     border: 1px solid black;
-    background-color: #ff7e79;
+    /* background-color: #ff7e79; */
+    background-image: linear-gradient(rgb(121, 77, 172), #ff7e79);
     margin-top: 0px;
 }
 h1 {
