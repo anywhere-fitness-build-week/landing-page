@@ -1,45 +1,126 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
@@ -48,22 +129,29 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Bangers", cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-.container{
-    width:1200px;
+.container {
+    width: 1200px;
+    width: 100%;
+    /* height: 100%;
+    height: 100vh; for some reason still can't get it to fill the whole height at all sizes*/
     margin: 0 auto;
-    
 }
-.header-container{
+.header-container {
     width: 100%;
     background: rgb(121, 77, 172);
     padding: 10px;
@@ -71,15 +159,15 @@ h1, h2, h3, h4, h5 {
     color: antiquewhite;
 }
 .dropdown .dropdown-hidden {
-  display: none;
+    display: none;
 }
-.dropdown-button{
+.dropdown-button {
     text-align: center;
 }
-.dropdown-link{
+.dropdown-link {
     color: aliceblue;
 }
-.dropdown-content{
+.dropdown-content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -88,39 +176,49 @@ h1, h2, h3, h4, h5 {
     -ms-flex-pack: center;
     justify-content: center;
 }
-.dropdown-content a{
-    margin-right:50px;
+.dropdown-content a {
+    margin-right: 50px;
     margin-top: 5px;
 }
-.line{
+.line {
     border: 2px solid black;
-    width:220px;
+    width: 220px;
     margin-top: 10px;
 }
-.line1{
+.line1 {
     border: 2px solid black;
-    width:220px;
-    margin-top:-10px;
+    width: 220px;
+    margin-top: -10px;
 }
-.aboutUs{
+.aboutUs {
     text-align: center;
     width: 100%;
     margin-top: 35px;
     margin-bottom: 35px;
     border: 1px solid black;
+    /* background-color: #ff7e79; */
+    background-image: linear-gradient(rgb(121, 77, 172), #ff7e79);
+    margin-top: 0px;
 }
-h1{
+h1 {
     font-size: 35px;
     margin-top: 15px;
 }
-.dummyImg{
+.dummyImg {
     width: 20%;
     margin-top: 10px;
+    border: 3px solid rgb(121, 77, 172);
+    border-radius: 10px;
 }
-.threeRow{
+.threeRow {
     width: 33.3%;
 }
-.flexDisplay{
+.lastRow {
+    width: 33%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.flexDisplay {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -129,53 +227,41 @@ h1{
     margin-top: 25px;
     margin-bottom: 15px;
 }
-.copyRight{
+.copyRight {
     width: 100%;
-    background: rgb(121, 77, 172) ;
+    background: rgb(121, 77, 172);
     text-align: center;
-    height: 20vh;
+    height: 10vh;
     display: table;
+    margin-top: -40px;
 }
-.copy-right{
+.copy-right {
     text-align: center;
     vertical-align: middle;
     display: table-cell;
     font-size: 35px;
 }
-body{
+body {
     background: #e7e0eb;
 }
-@media(max-width:500px){
-    .container{
+@media (max-width: 500px) {
+    .container {
         width: 100%;
         margin: 0 auto;
     }
-    .dropdown-content a{
-        margin-left:-10px;
+    .dropdown-content a {
+        margin-left: -10px;
         padding: 5px;
         font-size: 27px;
         border: 1px solid white;
-        color:white;
+        color: white;
         width: 500px;
         text-decoration: none;
-        }
-    .dropdown-content a:hover{
-        color:#b7b7f4;
-        
     }
-    .dropdown-content{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;   
+    .dropdown-content a:hover {
+        color: #b7b7f4;
     }
-    .aboutUs{
-        margin: 0px;
-    }
-    .flexDisplay{
+    .dropdown-content {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -184,10 +270,22 @@ body{
         -ms-flex-direction: column;
         flex-direction: column;
     }
-    .threeRow{
+    .aboutUs {
+        margin: 0px;
+    }
+    .flexDisplay {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .threeRow {
         width: 100%;
     }
-    .dummyImg{
+    .dummyImg {
         width: 70%;
     }
 }
