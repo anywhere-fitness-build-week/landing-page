@@ -196,7 +196,6 @@ h5 {
     margin-top: 35px;
     margin-bottom: 35px;
     border: 1px solid black;
-    /* background-color: #ff7e79; */
     background-image: linear-gradient(rgb(121, 77, 172), #ff7e79);
     margin-top: 0px;
 }
@@ -239,7 +238,7 @@ h1 {
     text-align: center;
     vertical-align: middle;
     display: table-cell;
-    font-size: 35px;
+    font-size: 1.5rem;
 }
 body {
     background: #e7e0eb;
@@ -287,5 +286,16 @@ body {
     }
     .dummyImg {
         width: 70%;
+    }
+    .lastRow {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    @media (max-width: 800px) {
+        .container {
+            height: 100vh;
+        }
+        /* Why is this not working */
     }
 }
